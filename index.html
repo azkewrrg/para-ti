@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para ti ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <h1>Feliz cumpleaños Chiquita Linda 🩵</h1>
+
+        <p class="descripcion">
+            Hice esta pagina web para ti.
+            Puedes regresar cuando quieras y abrir el regalo que necesites.
+        </p>
+
+        <section class="regalos">
+
+                <div class="regalo" onclick="abrirRegalo('triste')">
+            <div class="sobre">
+                <div class="tapa"></div>
+                <div class="cuerpo-sobre">
+                    <span>💌</span>
+                </div>
+            </div>
+
+            <p>Abrir cuando estés triste</p>
+        </div>
+
+
+        <div class="regalo" onclick="abrirRegalo('extranes')">
+            <div class="sobre">
+                <div class="tapa"></div>
+                <div class="cuerpo-sobre">
+                    <span>🥺</span>
+                </div>
+            </div>
+
+            <p>Abrir cuando me extrañes</p>
+        </div>
+
+
+        <div class="regalo" onclick="abrirRegalo('amor')">
+            <div class="sobre">
+                <div class="tapa"></div>
+                <div class="cuerpo-sobre">
+                    <span>❤️</span>
+                </div>
+            </div>
+
+            <p>Abrir cuando quieras recordar cuánto te amo</p>
+        </div>
+
+
+        <div class="regalo" onclick="abrirRegalo('cumple')">
+            <div class="sobre">
+                <div class="tapa"></div>
+                <div class="cuerpo-sobre">
+                    <span>🎂</span>
+                </div>
+            </div>
+
+            <p>Abrir en tu cumpleaños</p>
+        </div>
+        
+        <div class="regalo" onclick="abrirRegalo('bonita')">
+            <div class="sobre">
+                <div class="tapa"></div>
+                <div class="cuerpo-sobre">
+                    <span>🪞</span>
+                </div>
+            </div>
+
+            <p>Abrir cuando no te sientas bonita</p>
+        </div>
+
+
+        <div class="regalo" onclick="abrirRegalo('dormir')">
+            <div class="sobre">
+                <div class="tapa"></div>
+                <div class="cuerpo-sobre">
+                    <span>🌙</span>
+                </div>
+            </div>
+
+            <p>Abrir cuando no puedas dormir</p>
+        </div>
+
+
+        <div class="regalo" onclick="abrirRegalo('enojada')">
+            <div class="sobre">
+                <div class="tapa"></div>
+                <div class="cuerpo-sobre">
+                    <span>😡</span>
+                </div>
+            </div>
+
+            <p>Abrir cuando estés enojada conmigo</p>
+        </div>
+
+
+        <div class="regalo" onclick="abrirRegalo('mes')">
+            <div class="sobre">
+                <div class="tapa"></div>
+                <div class="cuerpo-sobre">
+                    <span>🩵</span>
+                </div>
+            </div>
+
+            <p>Abrir en nuestro próximo mes</p>
+        </div>
+
+
+        </section>
+
+    </main>
+
+
+    <div id="modal" class="modal">
+
+        <div class="carta">
+
+            <button class="cerrar" onclick="cerrarRegalo()">×</button>
+
+            <div id="mensaje"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
