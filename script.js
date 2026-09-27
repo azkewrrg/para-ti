@@ -128,8 +128,10 @@ const mensajes = {
         <h2>Para nuestro próximo mes 🩵</h2>
 
         <p>
-            Esta carta todavía no debería poder abrirse 👀, esta carta se
-            actualizara el dia de nuestro mes jeje <3
+            Mi Chiquita, hoy cumplimos 5 años y 6 meses juntos, y todavía me parece increíble pensar en todo lo que hemos vivido durante todo este tiempo. Hemos pasado por momentos increíbles, momentos difíciles, hemos cambiado y crecido juntos, pero aquí seguimos, eligiéndonos una y otra vez :3.
+            Gracias por todos los momentos, por tu cariño, por tu paciencia y aguantar estar conmigo durante estos años jsjs. No cambiaría todo lo que hemos vivido por nada, porque cada recuerdo contigo se ha convertido en una parte muy importante de mi vida.
+            Te amo musho preciosa, y espero que estos 5 años y 6 meses sean solamente una pequeña parte de todo lo que todavía nos queda por vivir juntitos. 
+            Feliz 5 años y 6 meses, mi amor. Te amo hoy, mañana y hasta el fin de mis dias jeje. 🥺🩵
         </p>
     `
 };
